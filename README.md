@@ -9,3 +9,8 @@
   - run: npm run build
   - run: rm -rf /var/www/tranining/reactjs-ecommerce/build/
   - run: mv /var/www/tranining/reactjs-ecommerce/_work/reactjs-ecommerce/reactjs-ecommerce/build/ /var/www/tranining/reactjs-ecommerce/build/
+
+
+ON job
+sudo ./svc.sh install
+sudo ./svc.sh start
