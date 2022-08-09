@@ -28,3 +28,4 @@ jobs:
             - run: git pull origin master
             - run: npm i
             - run: npm run build
+            - run: mv /var/www/tranining/deploy-nestjs-api/actions-runner/_work/nestjs-api/nestjs-api/dist /var/www/tranining/nestjs-api
