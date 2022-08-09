@@ -27,6 +27,7 @@ jobs:
                     node-version: ${{ matrix.node-version}}
             - run: git pull origin master
             - run: npm i
+            - run: npm install forever
             - run: npm run build
             - run: rm -rf /var/www/tranining/nestjs-api/*
             - run: mv /var/www/tranining/deploy-nestjs-api/actions-runner/_work/nestjs-api/nestjs-api/* /var/www/tranining/nestjs-api
