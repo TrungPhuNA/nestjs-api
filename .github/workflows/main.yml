@@ -31,5 +31,3 @@ jobs:
             - run: npm run build
             - run: rm -rf /var/www/tranining/nestjs-api/*
             - run: mv /var/www/tranining/deploy-nestjs-api/actions-runner/_work/nestjs-api/nestjs-api/* /var/www/tranining/nestjs-api
-            - run: cd /var/www/tranining/nestjs-api
-            - run: forever start "npm start"
